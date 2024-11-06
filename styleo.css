@@ -1,0 +1,188 @@
+.homepageH {
+    position: relative;
+    margin: 0%;
+    padding: 70px;
+    text-align: center;
+    font-family: "Orbitron", sans-serif;
+    font-style:normal;
+    font-size: 65px;
+    color: whitesmoke;
+}
+
+.homepageH::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(image.jpg) no-repeat center center; /* change the header to an image with stars */
+    background-size: cover;
+    opacity: 0.7; /* Adjust as needed */
+    z-index: -1;
+}
+body {
+    margin: 0;
+    background: #060324;
+    color: rgb(125, 198, 219);
+}
+p {
+    color: rgba(80, 80, 80,0.9);
+    font-size: 15px;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+a {
+    text-decoration: none;
+}
+table{
+    background-color: #060324;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    width: display-size;
+    border: collapse;
+    height: 15cm;
+}
+tr{
+    height: 180px;
+    text-align: center;
+}
+td{
+    background-color: azure;
+    border-radius:20px;
+    width: 400px;
+}
+.blankspace {
+    background-color:#060324;
+    width: 50px;
+}
+.blankrow {
+    background-color: #060324;
+    height: 50px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  font-size: 50px;
+  margin-left: 50px;
+  position: absolute;
+  display: inline;
+  z-index: 2;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 12%; /* Adjust as needed */
+    left: 0;
+    z-index: 1;
+    background-color: rgb(11, 4, 94);
+    box-shadow: 0px 8px 16px 0px rgba(200,200,200,0.4);
+    padding-top: 6%;
+    margin-top: -2%;
+    margin-left: 2%;
+    padding-bottom: 1%;
+    width: 18%;
+}
+.dropdown-menu a {
+    color: rgb(220, 15, 128);
+    font-family: 'Archivo Black';
+    padding: 12px 16px;
+    padding-left: 13%;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu a:hover {
+    background-color: rgb(125, 198, 219)
+}
+
+.POTD{
+    text-align: center;
+    font-size: 65px;
+    margin-top: 5%;
+    margin-left: 2.5%;
+    margin-bottom: 7%;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ghost-button {
+    flex: 1;
+    display: flex; /* Make this a flex container */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Add some space between the text and the icon */
+    padding: 10px 20px;
+    font-size: 16px;
+    color: azure;
+    background-color: transparent;
+    border: 2px solid azure;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.ghost-button .material-icons {
+    margin: 0; /* Remove any additional margins */
+}
+.ghost-button span {
+    margin: 0; /* Remove any additional margins */
+}
+.ghost-button:hover {
+    background-color: azure;
+    color: #060324;
+}
+.DATE{
+    text-align: center;
+    font-family: 'Archivo Black';
+    font-size: 30px;
+    margin-top: 1%;
+}
+.dateH{
+    text-align: center;
+    font-family: 'Archivo Black';
+    font-size: 30px;
+}
+.dateH,.dateH+.ndate{
+    display:inline;
+}
+.title{
+    text-align: center;
+    font-family: 'Archivo Black';
+    font-size: 20px;
+    padding-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(197, 30, 66);
+}
+.titleH,.titleH+.ntitle{
+    display:inline;
+}
+.ndescription{
+    text-align: center;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    color: rgb(217, 157, 60);
+}
+.nasaImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1%;
+    margin-bottom: 7%;
+    width:50%;
+    height: 50%;
+}
