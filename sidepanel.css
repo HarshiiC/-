@@ -1,30 +1,3 @@
-/* Style for Side Panel */
-.side-panel {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111; /* Panel color */
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-
-.side-panel a {
-  padding: 8px 8px 8px 50px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
-
-.side-panel a:hover {
-  color: #f1f1f1;
-}
-
 .side-panel .close-btn {
   position: absolute;
   top: 0;
@@ -40,4 +13,39 @@
   top: 15px;
   left: 15px;
   color: #111;
+}
+
+/* Side panel styling */
+#sidePanel {
+  height: 100%;
+  width: 0; /* Initial width of 0 to keep it hidden */
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0; /* Change from left: 0 to right: 0 */
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s; /* Smooth transition */
+  padding-top: 60px;
+}
+
+#sidePanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+#sidePanel a:hover {
+  color: #f1f1f1;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  left: 25px; /* Position the close button on the left side within the panel */
+  font-size: 36px;
+  color: #f1f1f1;
 }
